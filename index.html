@@ -1,54 +1,73 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>吴斌个人网站</title>
-	</head>
-	<body style="
-	background-color: bisque;">
-	<!-- <h1>Re01</h1> -->
-		<div style="
-		background-color: #f1f1db;
-		text-align: center;
-		padding: 40px;
-		// margin-left: 5%;
-		// margin-right: 5%;">
-			<img src="mmexport1688786932049.png"alt="吴斌"width="120px"height="120px">
-		</div>
-		
-		
-		<div style="
-		background-color: #f1eddd;
-		// text-align: center;
-		margin: 30px auto;
-		padding: 15px;
-		line-height: 1.7;
-		width: 80%;
-		">
-		<p style="font-size: 20px;font-weight: 500;">个人简介</p>
-		<p>你好啊，欢迎访问我的第一个网站。</p>
-		<p>这是我学习的第一步，后面还会有很多的东西需要学习。</p>
-		<p>哈哈。</p>
-		<p>希望自己能够坚持下去。</p>
-		<p>加油！！！</p>
-		<audio controls>
-		  <source src="Beyond - 海阔天空.mp3" type="audio/ogg">
-		  <source src="Beyond - 海阔天空.mp3" type="audio/mpeg">
-		您的浏览器不支持 audio 元素。
-		</audio>
-		</div>
-		
-		
-		<div style="
-		background-color: #ffffff;
-		text-align: center;
-		// padding: 5%;
-		font-size: 20px;">
-		<p>我的网站</p>
-		<a href="">个人爱好</a>
-		<a href="">基本情况</a>
-		<a href="">联系兄弟</p>
-		</div>
-
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wubin</title>
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        body{
+            background-color: blanchedalmond;
+            height:100vh;
+        }
+        .flex{
+            display: flex;
+        }
+        .column{
+            display: flex;
+            flex-direction: column;
+        }
+        .baise{
+            background-color: white;
+        }
+        .flex1{
+            flex:1;
+        }
+    </style>
+</head>
+<body class="column">
+    <!--head-->
+    <div class="flex" style="justify-content: flex-start;height: 100px;">
+    	<div class="baise" style="border-radius:100%;padding:2%;margin-top:2%;margin-left: 3%;margin-bottom: auto;"><a href="Myself.html" style="text-decoration:none">WuBin</a></div>
+		<a href="today.html" style="align-self:center;margin-left: 3vh;text-decoration:none">today</a>
+		<a href="yestoday.html" style="align-self:center;margin-left: 3vh;text-decoration:none">yestoday</a>
+        <a href="tomorrow.html" style="align-self:center;margin-left: 3vh;text-decoration:none">tomorrow</a>
+        <a href="idea.html" style="align-self:center;margin-left: 3vh;text-decoration:none">idea</a>
+		<a href="plan.html" style="align-self:center;margin-left: 3vh;text-decoration:none">plan</a>
+    </div>
+    <!--main-->
+    <div class="flex flex1">
+        <!--sidebar-->
+        <div class="column" style="overflow:auto;width:200px;text-align:center;">
+        	<div class="baise" style="height:100px;">side 1</div>
+        	<div class="baise" style="height:100px;">side 2</div>
+        	<div class="baise" style="height:100px;">side 3</div>
+        	<div class="baise" style="height:100px;">side 4</div>
+        	<div class="baise" style="height:100px;">side 5</div>
+        	<div class="baise" style="height:100px;">side 6</div>
+			<div class="baise" style="height:100px;">side 7</div>
+			<div class="baise" style="height:100px;">side 8</div>
+        </div>
+        <!--content area-->
+        <div class="flex1 column">
+            <div class="flex " style="text-align:left;height:200px">
+            	<div class="baise flex1" style="">虚位以待</div>
+                <div class="baise flex1" style="">虚位以待</div>
+                <div class="baise flex1" style="">虚位以待</div>
+            </div>
+            <div class="flex " style="text-align:center;height:200px">
+            	<div class="baise flex1" style="">虚位以待</div>
+                <div class="baise flex1" style="">虚位以待</div>
+                <div class="baise flex1" style="">虚位以待</div>
+            </div>
+            <div class="flex " style="text-align:right;height:200px">
+            	<div class="baise flex1" style="">虚位以待</div>
+                <div class="baise flex1" style="">虚位以待</div>
+                <div class="baise flex1" style="">虚位以待</div>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
